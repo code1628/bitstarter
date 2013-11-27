@@ -6,7 +6,7 @@ var infile = "/home/ubuntu/bitstarter/index.html";
 
 
 app.get('/', function(request, response) {
-  response.send(fs.fileReadSync(infile)));
+  response.send(fs.fileReadSync(infile));
 });
 
 
