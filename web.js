@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 app.use(express.logger());
 
-var infile = "/home/ubuntu/bitstarter/index.html";
+var infile = "/home/ubuntu/bitstarter/bitstarter.html";
 
 
 app.get('/', function(request, response) {
